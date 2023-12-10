@@ -1,0 +1,64 @@
+$date
+	Sun Dec 10 17:07:22 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_fa $end
+$var wire 1 ! sum $end
+$var wire 1 " cout $end
+$var reg 1 # a $end
+$var reg 1 $ b $end
+$var reg 1 % cin $end
+$scope module dut $end
+$var wire 1 # a $end
+$var wire 1 $ b $end
+$var wire 1 % cin $end
+$var wire 1 " cout $end
+$var wire 1 ! sum $end
+$var wire 1 & temp $end
+$var wire 1 ' ha_sum $end
+$var wire 1 ( ha_carry $end
+$scope module i1 $end
+$var wire 1 # a $end
+$var wire 1 $ b $end
+$var wire 1 ( carry $end
+$var wire 1 ' sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0(
+0'
+0&
+0%
+0$
+0#
+0"
+0!
+$end
+#10000
+1"
+1&
+1'
+1%
+1$
+#20000
+0"
+1!
+0&
+0%
+0$
+1#
+#30000
+1"
+0'
+1(
+1%
+1$
+#40000
